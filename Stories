@@ -1,0 +1,272 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>Joy of Pets</title>
+    <link rel="canonical" href="pets.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-video"
+        src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story"
+        src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+    <style amp-custom>
+      amp-story {
+        font-family: 'Oswald',sans-serif;
+        color: #121212;
+      }
+      amp-story-page {
+        background-color: #ffffff;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        line-height: 1.174;
+      }
+      p {
+        font-weight: normal;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        color: #121212;
+      }
+      q {
+        font-weight: 300;
+        font-size: 1.1em;
+      }
+      amp-story-grid-layer.bottom {
+        align-content:end;
+      }
+      amp-story-grid-layer.noedge {
+        padding: 0px;
+      }
+      amp-story-grid-layer.center-text {
+        align-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+      .banner-text {
+        text-align: center;
+        background-color: #000;
+        line-height: 2em;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Cover page -->
+    <amp-story standalone
+        title="Joy of Pets"
+        publisher="AMP tutorials"
+        publisher-logo-src="assets/AMP-Brand-White-Icon.svg"
+        poster-portrait-src="assets/cover.jpg">
+      <amp-story-page id="cover">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/cover.jpg"
+              width="720" height="1280" 
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h2>Taxmann | This Week</h2>
+          <p>This is your weekly newsletter which analytically summarizes the significant developments of the previous week (21 to 26 September 2020) reported at www.taxmann.com. In this newsletter, you will know about the latest happenings </p>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Newsletter_Image.svg" alt="Welcome" height="100px" width="220px"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 1 (Cat): 1 layer (vertical) -->
+      <amp-story-page id="page1">
+        <amp-story-grid-layer template="vertical">
+          <h2>Parliament approves of 3 bills to bring labour welfare reforms</h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Legal_papers.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>(a) Social Security Code, 2020</p>
+          <p>(b) Occupational Safety, Health & Working Conditions Code, 2020</p>
+          <p>(c) Industrial Relations Code, 2020</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 2 (Dog): 2 layers (fill + thirds) -->
+    <amp-story-page id="page2">
+        <amp-story-grid-layer template="vertical">
+          <h2>Parliament approves Taxation Laws Amendment Bill</h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Slide_3_legal_papers.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>(a) Extension of various due dates</p>
+          <p>(b) Reduction in the interest rate on delayed payment of taxes</p>
+          <p>(c) Scope of e-governance</p>
+          <p>(d) Other amendments</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 3 (Bird): 3 layers (fill + vertical + vertical) + Audio-->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h2>GST refund restriction with regard to input services is constitutionally valid</h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Refund.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>While disposing of the bunch of writ petitions in a matter relating to refund of Input Tax Credit under Inverted Duty Structure scheme, the Madras High Court held that the refund restriction with regard to input services under the inverted duty structure scheme is valid and constitutional.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 4 (Rabbit): 3 layers (fill (video) + vertical + vertical) -->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h2>Key highlights of the FCRA (Amendment) Bill, 2020</h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Key_highlights_for_Bill.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>The amendments in the FCRA will help in checking the misuse of foreign funds by receiving entities. Besides, it will enable the Government to keep a close watch on the undesirable activities of NGOs receiving overseas funding.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 5 (Collage): 2 layers + animations -->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h2>Delhi HC admits petition challenging Rule 90(3) of the CGST Rules</h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Law_court.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>Hon’ble Delhi High Court has admitted a petition with regard to refund of excess GST which was inadvertently paid by the petitioner. The High Court has issued notices to Government and listed the case to be heard on December 9, 2020.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- End of page-5-->
+
+      <!-- Page 6 (Collage): 2 layers + animations -->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h2>Extension of limitation period on account of COVID-19 wouldn’t apply to statutory period for condoning delay: SC</h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Date_Due_SC.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>The main contention of the Appellant was that the NCLAT failed to take note of the lockdown as well as the order passed by the Supreme Court in a suo motu writ petition on March 23, 2020 extending the period of limitation for filing any proceeding with effect from March 15, 2020 until further orders.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- End of page-6-->
+
+      <!-- Start of page-7-->
+       
+       <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h2>Extension of time limit for issuing an invoice for export of goods under sale on approval basis</h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Export_Import.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>As per sub-section (7) of section 31 of the CGST Act, where the goods being sent or taken on approval for sale or return are removed before the supply takes place, the invoice shall be issued before or at the time of supply or six months from the date of removal, whichever is earlier.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- End of Slide 7-->
+
+      <!-- Start of Slide 8-->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h2>Late fee waiver for composition taxpayers</h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Late-fees.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>This relaxation is available if Form GSTR-4 (Quarterly Return) is filed between September 22, 2020 and October 31, 2020, for the quarters from July 2017 to March 2019. Of the late fee of Rs 500, Rs 250 will go towards CGST and the remaining Rs 250 towards SGST.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+      <!-- End of Slide 8-->
+
+      <!-- Start of Slide 9-->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h2>Maximum late fee capped for GSTR-10</h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Dates_9.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>The main contention of the Appellant was that the NCLAT failed to take note of the lockdown as well as the order passed by the Supreme Court in a suo motu writ petition on March 23, 2020 extending the period of limitation for filing any proceeding with effect from March 15, 2020 until further orders.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+      <!-- End of Slide 9-->
+
+      DAAB proposed six Forensic Accounting and Investigation Standards (FAISs)
+
+      <!-- Start of Slide 10-->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h2> DAAB proposed six Forensic Accounting and Investigation Standards (FAISs) </h2>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Accounting.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+          <p>Forensic accounting and Investigation play a vital role in cases involving financial fraud, breach of contract, hidden assets, etc. Due to an increase in financial frauds over the last two decades, there is a rise in Forensic Accounting assignments.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+      <!-- End of Slide 10-->
+
+           <!-- Start of Slide 11-->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical">
+          <h1> Subscribe to our Newsletter Service </h1>
+          <amp-img src="file:///C:/Users/User/Desktop/Caro%202020/This_week_Newsletter/Subscribe_Now.svg"
+              width="100" height="120"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+      <!-- End of Slide 10-->
+
+      <!--
+
+      <amp-story-page id="page5">
+        <amp-story-grid-layer template="vertical" class="noedge">
+          <div class="wrapper">
+            <amp-img src="assets/cat.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="0.4s">
+            </amp-img>
+            <amp-img src="assets/dog.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="0.6s">
+            </amp-img>
+            <amp-img src="assets/bird.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay=".8s">
+            </amp-img>
+            <amp-img src="assets/rabbit.jpg"
+                width="720" height="1280"
+                layout="responsive"
+                animate-in="fade-in"
+                animate-in-delay="1s">
+            </amp-img>
+          </div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="center-text">
+          <p class="banner-text" animate-in="whoosh-in-right">Pets can lower your stress levels!</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+    -->
+
+      <!-- Bookend -->
+      <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
+    </amp-story>
+  </body>
+</html>
